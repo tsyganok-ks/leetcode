@@ -12,7 +12,7 @@ def main():
                                 continent varchar(255), 
                                 area int, 
                                 population int, 
-                                gdp bigint); '''
+                                gdp bigint);'''
     cursor.execute(create_table_query)
 
     # insert into table
