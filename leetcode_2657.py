@@ -1,4 +1,11 @@
 def findThePrefixCommonArray(A, B):
+    """
+    Find prefixes for each turn (how many common nums in both arrays)
+        len of A and B <= 50
+    :param A: first array
+    :param B: second array
+    :return: array with prefixes
+    """
     prefix_common = []
     dict_nums = {x: 0 for x in range(51)}
     counter = 0
